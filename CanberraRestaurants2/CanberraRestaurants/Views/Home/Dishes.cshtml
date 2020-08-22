@@ -1,0 +1,230 @@
+﻿@*ROBERT PIETKIEWICZ U3144505*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="~/css/mystyle.css">
+<link rel="stylesheet" media="(min-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on tablet larger than 768px*@
+@*@<img src="E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\wwwroot\images\Restaurant" />*@
+<link href="~/css/mystyle.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Oxygen" rel="stylesheet" type="=text/css">
+<link href="~/css/elastic_grid.min.css" rel="stylesheet" type="text/css" />
+
+
+<div class="parallax_scrolling3">
+    <div class="dark_background resizeblah">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="pad">
+                    <p class="oxygenotherpage">CANBERRA RESTAURANTS</p>
+                </div>
+                </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                @*<p class="lato">"People who love to eat are always the best people."</p>*@
+                <p class="niconne3">Dishes</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<br />*@
+
+<div class="row text-banner-altpage" style="background-color:white;">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-1">
+
+            <div style="color:black;">
+                <h3 class="header-text">a dish for every taste</h3>
+                <br />
+                <div class="oxygen2">If you've got a hankering for a big bowl of handmade pasta or a delicious, spicy laksa, then look no further</div>
+                <br />
+                <div class="oxygen2">Check out what's on offer by selecting a dish from the menu below.</div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="col-md-6" style="padding-top:60px;">
+                <img src="~/images/burgertwo.jpg" />
+            </div>
+            <div class="col-md-6" style="padding-top:60px;">
+                <img src="~/images/pastatwo.jpg" />
+            </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#jquery").click(function () {
+            $("#maindiv").css("height", "250px");
+            $("#maindiv").css("font-size", "88px");
+            $("#maindiv").html("<b>jQuery</b>");
+
+        });
+
+
+
+        $("#maindiv").mouseenter(function () {
+            $("#maindiv").html("<div id='jquerydiv' style='margin:10px; height:300px; with:100%;'></div>");
+            $("#jquerydiv").css("background-image", "url('../images/jquery.jpg')");
+            $("#jquerydiv").css("background-size", "50%");
+            $("#jquerydiv").css("background-repeat", "no-repeat");
+            $("#jquerydiv").css("display", "none");
+            $("#jquerydiv").slideDown("slow");
+        });
+
+        $("#maindiv").mouseleave(function () {
+            $("#jquerydiv").slideUp("slow", function () {
+                $("#maindiv").html("<b>jQuery</b>");
+            });
+        });
+    });
+
+</script>
+
+
+
+<div class="container-fluid" id="elastic_grid"></div>
+    
+ <div class="row"> @*to center the grid*@
+     <div class="col-md-4 col-offset-4">
+ 
+<!-- Elastic grid -->
+<script type="text/javascript">
+
+        $(function(){
+            $("#elastic_grid").elastic_grid({
+                'showAllText' : 'All',
+                'filterEffect': 'popup',
+                'hoverDirection': true,
+                'hoverDelay': 0,
+                'hoverInverse': false,
+                'expandingSpeed': 500,
+                'expandingHeight': 800,
+                'items' :
+                [
+                    {
+                        'title': 'Jewel of India <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>India is synonymous with curries. They have such a range of different flavoured, coloured and spicy curries. So much to try!</h4>',
+                        'thumbnail': ['/images/dishesprices/jewel_thumbnail.jpg'],
+                        'large'         : ['/images/dishesprices/jewel.jpg'],
+                        'button_list'   :
+                        [
+                            { 'title': 'Visit Website', 'url': 'http://www.jewelofindia.com.au/', 'new_window': true },
+                        ],
+                        'tags'          : ['Curry']
+                    },
+
+
+
+                    {
+                        'title': 'Italian and Sons <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description'   : '<h4>A casual Italian trattoria that specialises in wood fired pizzas such as Rucola with Prosciutto di Parma, rucola \& reggiano. Don\'t miss daily changing main dishes of the day such as their wood roast suckling pig, rosemary, garlic, baked baby fennel \& mustard fruits.</h4>',
+                        'thumbnail'     : ['/images/dishesprices/is_thumbnail.jpg'],
+                        'large': ['/images/dishesprices/is.jpg'],
+                        'button_list'   :
+                        [
+                            { 'title': 'Visit Website', 'url': 'http://italianandsons.com.au/', 'new_window': true },
+                        ],
+                        'tags'          : ['Pizza']
+                    },
+
+
+
+                    {
+                        'title': 'Blu Ginger <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>At Blu Ginger we use only the freshest locally sourced produce, combined with authentic spices imported directly from the sub-continent, to offer classic traditional recipes with a modern twist, creating a unique and memorable dining experience for you" - Blu Ginger Website</h4>',
+                        'thumbnail': ['/images/dishesprices/bluginger_thumbnail.jpg'],
+                        'large': ['/images/dishesprices/bluginger.jpg'],
+                        'button_list':
+                        [
+                            { 'title': 'Visit Website', 'url': 'http://www.bluginger.com.au/', 'new_window': true },
+                        ],
+                        'tags'          : ['Curry']
+                    },
+
+
+
+                    {
+                        'title': 'Jamies Italian <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>With prime position in the Canberra Centre on Bunda Street, Jamie\'s Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. With beautiful room- height windows and impressive lofty ceilings, the restaurant is full of atmosphere." - Jamie\'s Italian Website</h4>',
+                        'thumbnail': ['/images/dishesprices/jamies_thumbnail.jpg'],
+                        'large': ['/images/dishesprices/jamies.jpg'],
+                        'button_list':
+                        [
+                            { 'title': 'Visit Website', 'url': 'https://www.jamieoliver.com/italian/australia/', 'new_window': true },
+                        ],
+                        'tags'           : ['Pasta']
+                    },
+
+
+
+                    {
+                        'title': 'The Chairman & Yip <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>The Chairman & Yip has become one of Canberra\'s longest standing and most highly regarded institutions, having received numerous awards over the years, offering an ever consistent and professional quality of service for corporate dining, conferences and presentations" - Chairman & Yip Website</h4>',
+                        'thumbnail': ['/images/dishesprices/chairman_yip_thumbnail.jpg'],
+                        'large': ['/images/dishesprices/chairman_yip.jpg'],
+                        'button_list':
+                        [
+                            { 'title': 'Visit Website', 'url': 'http://chairmangroup.com.au/chairmanyip/', 'new_window': true },
+                        ],
+                        'tags'            : ['Dumplings']
+                    },
+
+
+
+                    {
+                        'title': 'Dickson Noodle House <hr/> <a class="btn btn-primary">More Details</a>',
+                        'description': '<h4>The Dickson Asian Noodle House specialises in traditional Malaysian, Thai and Lao Cuisine. The dining atmosphere is casual and cosy providing for a la carte dining, banquets and take away." - Vibe FM Website</h4>',
+                        'thumbnail': ['/images/dishesprices/dickson_noodle_thumbnail.jpg'],
+                        'large': ['/images/dishesprices/dickson_noodle.jpg'],
+                        'button_list':
+                        [
+                            { 'title': 'Visit Website', 'url': 'http://www.vibefm.com.au/dicksonasiannoodlehouse.htm', 'new_window': true },
+                        ],
+                        'tags'            : ['Laksa']
+                    },
+                ]
+            });
+        });
+    
+   </script>
+  </div>
+</div>
+
+
+
+@* table/grid align template
+    <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-3" ></div>
+        <div class="col-md-3" ></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">1</div>
+        <div class="col-md-3">2</div>
+        <div class="col-md-3">3</div>
+        <div class="col-md-3">4</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">1</div>
+        <div class="col-md-3">2</div>
+        <div class="col-md-6">3</div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">1</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">1</div>
+    </div>
+*@

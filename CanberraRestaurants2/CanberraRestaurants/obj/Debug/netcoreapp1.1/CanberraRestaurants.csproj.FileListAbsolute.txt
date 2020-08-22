@@ -1,0 +1,40 @@
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.deps.json
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.runtimeconfig.json
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.runtimeconfig.dev.json
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.dll
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.pdb
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.csprojResolveAssemblyReference.cache
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.AssemblyInfo.cs
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.dll
+E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.pdb
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.deps.json
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.runtimeconfig.json
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.runtimeconfig.dev.json
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.dll
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.pdb
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.csprojResolveAssemblyReference.cache
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.AssemblyInfo.cs
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.dll
+F:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.pdb
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.deps.json
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.runtimeconfig.json
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.runtimeconfig.dev.json
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.dll
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.pdb
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.csprojResolveAssemblyReference.cache
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.AssemblyInfo.cs
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.dll
+F:\3rd yr sem1 uni coursework - MAIN\7175-WDP\VS projects\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.pdb
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.deps.json
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.runtimeconfig.json
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.runtimeconfig.dev.json
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.dll
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\bin\Debug\netcoreapp1.1\CanberraRestaurants.pdb
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.AssemblyInfo.cs
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.dll
+C:\Users\Robert\Desktop\CanberraRestaurants2\CanberraRestaurants\obj\Debug\netcoreapp1.1\CanberraRestaurants.pdb

@@ -1,0 +1,327 @@
+﻿@*ROBERT PIETKIEWICZ U3144505*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on phone smaller than 768px*@
+<link rel="stylesheet" media="(min-width: 768px) and (max-width: 992px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on tablet larger than 768px and no larger than 992px*@
+@*@<img src="E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\wwwroot\images\Restaurant" />*@
+<link href="~/css/mystyle.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Oxygen" rel="stylesheet" type="=text/css">
+
+@*testing using br***********************************************************************************************************************
+<div class="parallax_scrolling">
+    <div class="dark_background resize">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                
+                <p class="oxygen">CANBERRA RESTAURANTS </p>
+              
+
+            </div>                 
+         <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1" style="line-height:190%">
+                <p class="lato">"People who love to eat are always the best people."</p>
+                <p class="niconne">Julia Child</p>
+         </div>
+      </div>
+    </div>
+</div>
+@*****************************************************************************************************************************************@
+@***************************************testing using no br*******************************************************************************@
+<div class="parallax_scrolling">
+    <div class="dark_background resize">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 ">
+                <p class="oxygen">canberra restaurants</p>
+            </div>
+            @*no need for br - used margin*@
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1" style="line-height:200%;">
+                <p class="lato"><q>People who love to eat are always the best people</q></p>
+                <p class="niconne">Julia Child</p>
+            </div>
+        </div>
+    </div>
+</div>
+@********************************************************************************************************************************************@
+
+
+@****************************************************************testing bootstrap using col-md**************************************************************************************************@
+<div class="row" style="margin-bottom: 50px; margin-top: 50px;">
+    <div class="col-md-4 col-md-offset-1">
+        <p class="niconne2">Welcome To</p>
+        <div style="color:black;">
+            <h3 class="header-text">canberra restaurants</h3>
+            <br />
+            <p class="oxygen2"> At Canberra Restaurants, we provide an overview of restaurants within Canberra and allow you to find a meal based on certain cuisine, a specific dish that you're after or you're just after a meal within price range.</p>
+            <p class="oxygen2"> We've got it all here for you, just scroll down for further information.</p>
+        </div>
+    </div>
+
+   <div class="col-md-5">
+        <div class="col-md-6" style="padding-top:60px;">
+            <img src="~/images/burgertwo.jpg" />
+        </div>
+        <div class="col-md-6" style="padding-top:60px;">
+            <img src="~/images/pastatwo.jpg" />
+        </div>
+    </div>
+    <div class="col-md-1">
+    </div>
+</div>
+
+@*****************************************************************testing bootstrap using col-lg************************************************************************************************
+<div class="row" style="margin-bottom: 50px; margin-top: 50px;">
+    <div class="col-lg-1">
+    </div>
+    <div class="col-lg-5">
+        <p class="niconne">Welcome To</p>
+        <p class="oxygen">Canberra Restaurants</p>
+        <p>At Canberra Restaurants, we provide an overview of restaurants within Canberra and allow you to find a meal based on a certain cuisine, a specific dish that you're after or you're just after a meal within price range.</p>
+        <p>We've got it all here for you. Just scroll down for further information.</p>
+    </div>
+    <div class="col-lg-5">
+        <div class="col-lg-6" style="padding-top:60px;">
+            <img src="~/images/burgertwo.jpg" />
+        </div>
+        <div class="col-lg-6" style="padding-top:60px;">
+            <img src="~/images/pastatwo.jpg" />
+        </div>
+    </div>
+    <div class="col-lg-1">
+    </div>
+</div>*@
+
+<br />
+   
+<div class="parallax_scrolling2">
+    <div class="dark_background">
+
+        <div class="row text-banner-altpage">
+            <div class="col-md-3">
+                <div class="text3">Cuisine</div>
+                <ul>
+                    <div class="text2">The multicultural society in Canberra spoils the locals with such a vast amount of flavours from around the world</div>
+                    <div class="buffer" text2><a href="http://localhost:53597/Home/Cuisine" ; style="color: gold;">Click here</a> to find out more about the different cuisines available.</div>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <div class="text3">Dishes</div>
+                <ul>
+                    <div class="text2">With a great amount of cuisines comes a great amount of dishes!</div>
+                    <div class="buffer">There are so many amazing dishes out there for you to try</div>
+                    <div class="buffer"><a href="http://localhost:53597/Home/Dishes" ; style="color: gold;">Click here</a> to look for a dish.</div>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <div class="text3">Price</div>
+                <ul>
+                    <div class="text2">Whether you're after a super cheap meal or want to treat yourself to something a little more fancy, Canberra has it all.</div>
+                    <div class="buffer"><a href="http://localhost:53597/Home/Prices" ; style="color: gold;">Click here</a> to see what's available in your price range.</div>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <div class="text3">Location</div>
+                <ul>
+                    <div class="text2">There might be the perfect meal waiting just around the corner from you. Check out our locations page to find a restaurant near you!</div>
+                    <div class="buffer"><a href="http://localhost:53597/Home/Locations" ; style="color: gold;">Click here</a> to see what's available near you.</div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+
+
+        <div class="row">
+            @*<div class="col-md-6 imgContainer2">
+                <img src="~/images/burgertwo.jpg" height="200" width="200" hspace="30" />
+                <img src="~/images/pastatwo.jpg" height="200" width="200" />
+            </div>*@
+
+            <div class="col-md-5">
+                <div class="col-md-6" style="padding-top:60px;">
+                    <img src="~/images/burgertwo.jpg" />
+                </div>
+                <div class="col-md-6" style="padding-top:60px;">
+                    <img src="~/images/pastatwo.jpg" />
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+
+            <div class="col-md-6">
+                <p class="niconne2">Reviews</p>
+                <br />
+                <br />
+                <br />
+                <div style="color:black;">
+                    <h3 class="header-text">Can't Make Up Your Mind</h3>
+                    <h3 class="header-text">Mind?</h3>
+                    <div class="oxygen2">People from around Australia have already visited these restaurants and have given us thier thoughts</div>
+                    <br />
+                    <div class="oxygen2">Head over to our<a href="http://localhost:53597/Home/Reviews" ; style="font-family:#ffd800"> Customer Reviews Page</a> to find out more. </div>
+                </div>
+            </div>
+        </div>
+
+<br />
+<br />
+<br />
+
+
+ <div class="row">
+    <div class="col-md-12"></div>
+     <h2 class="niconne-border">Featured Restaurants</h2>
+</div>
+
+<br />           
+      
+        @*<div class="row text-banner-altpage" style="background-color:white;"> </div>*@
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="https://www.jamieoliver.com/italian/australia/">
+                    <img src="~/images/Jamies.jpg" alt="ASP.NET" class="img-responsive" />
+                    </a>
+                    <div class="carousel-caption" role="option">
+                        <p>
+                            Jamie's Italian
+                            @*<a class="btn btn-default" href="https://www.jamieoliver.com/italian/australia/">
+                                Website
+                            </a>*@
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <a href="http://italianandsons.com.au/">
+                    <img src="~/images/Italiansons.jpg" alt="Visual Studio" class="img-responsive" />
+                    </a>
+                    <div class="carousel-caption" role="option">
+                        <p>
+                            Italian and Sons
+                            @*<a class="btn btn-default" href="http://italianandsons.com.au/">
+                                Website
+                            </a>*@
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <a href="http://chairmangroup.com.au/chairmanyip/">
+                    <img src="~/images/Chairman.jpg" alt="Package Management" class="img-responsive" />
+                    </a>
+                    <div class="carousel-caption" role="option">
+                        <p>
+                            Chairman and Yip
+                            @*<a class="btn btn-default" href="http://chairmangroup.com.au/chairmanyip/">
+                                Website
+                            </a>*@
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <a href="http://www.vibefm.com.au/dicksonasiannoodlehouse.htm">
+                    <img src="~/images/Noodle.jpg" alt="Package Management" class="img-responsive" />
+                    </a>
+                    <div class="carousel-caption" role="option">
+                        <p>
+                            Dickson Noodle House
+                            @*<a class="btn btn-default" href="http://www.vibefm.com.au/dicksonasiannoodlehouse.htm">
+                                Website
+                            </a>*@
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <a href="http://www.bluginger.com.au/">
+                    <img src="~/images/bluginger.jpg" alt="Package Management" class="img-responsive" />
+                    </a>
+                    <div class="carousel-caption" role="option">
+                        <p>
+                            Blu Ginger
+                            @*<a class="btn btn-default" href="http://www.bluginger.com.au/">
+                                Website
+                            </a>*@
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <a href="https://jewelofindia.com.au/">
+                    <img src="~/images/jewelofindia.jpg" alt="Microsoft Azure" class="img-responsive" />
+                    </a>
+                    <div class="carousel-caption" role="option">
+                        <p>
+                            Jewel of India
+                            @*<a class="btn btn-default" href="https://jewelofindia.com.au/">
+                                Website
+                            </a>*@
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+
+@*table/grid align template
+<div class="row">
+    <div class="col-md-6"></div>
+    <div class="col-md-3" ></div>
+    <div class="col-md-3" ></div>
+</div>
+<div class="row">
+    <div class="col-md-3">1</div>
+    <div class="col-md-3">2</div>
+    <div class="col-md-3">3</div>
+    <div class="col-md-3">4</div>
+</div>
+<div class="row">
+    <div class="col-md-3">1</div>
+    <div class="col-md-3">2</div>
+    <div class="col-md-6">3</div>
+</div>
+<div class="row">
+    <div class="col-md-12">1</div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">1</div>
+</div>
+    *@
+
+
+

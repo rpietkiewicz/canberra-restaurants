@@ -1,0 +1,829 @@
+﻿/*Robert Pietkiewicz - u3144505*/
+  /*media queries for xs sm md on bottom of page*/
+body {
+
+}
+
+.parallax_scrolling {
+    background-attachment: fixed;
+    background-color: #645862;
+    background-image: url("../images/restaurant_2.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    cursor: default;
+    text-align: center;
+    padding: 0px;
+}
+
+.parallax_scrolling_2 {
+    background-attachment: fixed;
+    background-color: #645862;
+    background-image: url("../images/restaurant_3.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    cursor: default;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.parallax_scrolling_3 {
+    background-attachment: fixed;
+    background-color: #645862;
+    background-image: url("../images/restaurant_1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    cursor: default;
+    text-align: center;
+    padding: 0px;
+}
+/*background colour*/
+.dark_background {
+    background-color: rgba(31, 20, 20, 0.6);
+    padding: 40px 0px;
+}
+
+.resize {
+    height: 600px;
+}
+/*the background font style*/
+.oxygen {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 28px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 20px;
+    margin: 10px 0px 200px 0px;
+    border: 2px solid #FFF;
+    
+}
+
+.parallax_scrolling {
+    background-attachment: fixed;
+    background-color: #645862;
+    background-image: url("../images/restaurant_4.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    cursor: default;
+    text-align: center;
+    padding: 0px;
+}
+
+.parallax_scrolling2 {
+    background-attachment: fixed;
+    background-color: #645862;
+    background-image: url("../images/restaurant_3.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    cursor: default;
+    text-align: center;
+    padding: 0px;
+}
+
+.parallax_scrolling3 {
+    background-attachment: fixed;
+    background-color: #645862;
+    background-image: url("../images/restaurant_1.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    cursor: default;
+    text-align: center;
+    padding: 0px;
+}
+
+/*.pad{
+    padding-bottom: 0px;
+}*/
+
+.dark_background {
+    background-color: rgba(31, 20, 20, 0.6);
+    padding: 40px 0px;
+}
+.resize{
+    height:600px;
+}
+
+.resizeblah{
+    height:250px;
+}
+/*.oxygen {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 28px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 20px 25px 20px;
+    margin: 10px 0px 200px 0px;
+    border: 2px solid #FFF;
+}*/
+
+.oxygen2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 13px;
+    color: black;
+    letter-spacing: 1px;  
+}
+
+.oxygen3 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 11.5px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.oxygenotherpage {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 28px;
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 20px;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid #FFF;
+}
+
+.niconne {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+    font-size: 55px;
+}
+
+.niconne2 {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+    font-size: 50px;
+    float: left;
+}
+
+.niconne3 {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+    font-size: 53px;
+    
+}
+
+.text3 {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+    font-size: 52px;
+  
+}
+
+.header-text {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 5px;
+    display: block;
+}
+
+.header-text2 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 5px;
+    display: block;
+    color: purple;
+}
+
+.header-text3 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 5px;
+    display: block;
+    border-color: #f8bd08;
+    color: black;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 2px;
+    border-left: 1px;
+    border-right: 1px;
+    padding: 9px 0px 9px;
+}
+
+.header-text4 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 5px;
+    display: block;
+    color: black;
+    font-weight: 400;
+    padding: 3px 0px 3px;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 28px;
+}
+
+/*.niconne {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 400;
+}*/
+
+.niconne-border {
+    font-family: 'Niconne', cursive;
+    color: #f8bd08;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 2px;
+    border-left: 1px;
+    border-right: 1px;
+    padding: 25px 0px 25px;
+    /*padding-bottom: 40px 0px 40px;*/
+}
+
+.text-banner {
+    padding: 120px 0px 160px;
+}
+
+
+.text-center {
+    padding: 120px 0px 200px;
+}
+
+.text-banner-altpage {
+    padding: 20px 0px 20px;
+}
+
+.text-banner h2 {
+    color: #f8bd08;
+    font-family: 'Niconne', cursive;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.text-banner-altpage h2 {
+    color: #f8bd08;
+    font-family: 'Niconne', cursive;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.buffer {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.res-border {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    float: right;
+}
+
+.res-boxis {
+
+}
+
+.res-boxji {
+  /* width: 300px;
+   height:100px;
+   border: 1px solid black;*/
+}
+
+.res-boxci {
+
+}
+
+.res-boxdanh {
+
+}
+
+.res-boxbg {
+
+}
+
+.res-boxjoi {
+
+}
+
+/*.span4 {
+    padding: 10px 10px 15px 10px;
+    margin-bottom: 10px;
+}*/
+
+.panel-body{
+
+}
+
+.container-fluid {
+   
+}
+
+.elastic_grid {
+
+}
+
+.btn-primaryp{
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 140px;
+}
+
+/*.btn-secondp{
+    color: white;
+    background-color: blue;
+}*/
+
+/*.res-border img {
+    margin-right: 15px;
+    float: left;
+}
+*/
+/*.imgContainer {
+    float:left;
+}
+
+.imgContainer2 {
+    float:left;
+}*/
+
+.box{
+    margin-top: 20px;
+    border: 3px solid black;    
+}
+
+.box:hover{
+    border: 3px solid red;
+}
+
+.restimg{
+   width: 175px;
+   height: auto;
+   padding: 25px;
+}
+
+.resttext{
+    margin: 20px;
+}
+
+.restimg2{
+    margin: 5px;
+}
+
+.buttonReview {
+    /*background-color: silver; 
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1px;
+    border-radius: 9px;*/
+    background-color: gold;
+    border-radius: 4px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.buttonDetails {
+    /*background-color: silver; 
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1px;
+    border-radius: 9px;*/
+    background-color: whitesmoke; 
+    border: none;
+    color: black;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 9px;
+}
+
+.buttonEdit {
+    /*background-color: silver; 
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1px;
+    border-radius: 9px;*/
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 7px;
+    border-radius: 9px;
+    float: right;
+}
+
+.buttonDiscard {
+    /*background-color: silver; 
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1px;
+    border-radius: 9px;*/
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 9px;
+    float: right;
+}
+
+.deleteButton {
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+}
+
+.buttonAgree {
+    /*background-color: silver; 
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1px;
+    border-radius: 9px;*/
+    background-color: lightgreen;
+    border: none;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 9px;
+}
+
+.buttonDisagree {
+    /*background-color: silver; 
+    border: none;
+    color: white;
+    padding: 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1px;
+    border-radius: 9px;*/
+    background-color: tomato;
+    border: none;
+    color: black;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 9px;
+}
+
+.res-bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-bold {
+    font-weight: bold;
+}
+
+.datetime-bold {
+    font-weight: bold;
+}
+/******************************for customising list of review*******************************/
+.review-border {
+    /*font-family: 'Niconne', cursive;*/
+    color: mediumpurple;
+    /*font-size: 50px;*/
+   /*text-align: center;*/
+    /*font-weight: 400;*/
+    border-style: solid;
+    border-width: 2px;
+    border-left: 0.5px;
+    border-right: 0.5px;
+    padding: 0px 0px 0px;
+    margin-bottom: 60px;
+    /*padding-bottom: 40px 0px 40px;*/
+}
+/******************************for media queries**********************************************/
+/*sm tablets*/
+@media (min-width: 768px) and (max-width: 992px) {
+    .oxygen {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 23px;
+        color: white;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 20px 25px 20px;
+        margin: 50px 0px 50px 0px;
+        border: 2px solid #FFF;
+    }
+
+    /* .oxygen2 {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 9px;
+        color: white;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 20px 25px 20px;
+        margin: 50px 0px 50px 0px;
+        border: 2px solid #FFF;
+    }*/
+
+    .lato {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .niconne {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 27px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .niconne2 {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 32px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .header-text {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-size: 21px;
+        padding-top: 5px;
+        display: block;
+    }
+
+    .text2 {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 18px;
+        padding-top: 5px;
+        display: block;
+    }
+
+    .text3 {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .buffer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .niconne-border {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 400;
+        border-style: solid;
+        border-width: 2px;
+        border-left: 1px;
+        border-right: 1px;
+        padding: 20px 0px 20px;
+        /*padding-bottom: 40px 0px 40px;*/
+    }
+    /*.oxygen5 {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 24px;
+        color: white;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 20px 25px 20px;
+        margin: 60px 0px 60px 0px;
+        border: 2px solid #FFF;
+}
+
+    .lato {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 24px;
+}
+
+    .niconne {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 55px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    /*.header-text {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding-top: 5px;
+        display: block;
+    }*/
+}
+
+/*md desktops*/
+@media (min-width: 992px) {
+    .oxygen6 {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 28px;
+        color: white;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 20px 25px 20px;
+        margin: 60px 0px 60px 0px;
+        border: 2px solid #FFF;
+}
+
+    .lato {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 28px;
+}
+
+    .niconne {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 65px;
+        text-align: center;
+        font-weight: 400;
+    }
+}
+
+/*xs for phones*/
+@media (max-width: 768px) {
+    .oxygen {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 11px;
+        color: white;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 20px 25px 20px;
+        margin: 50px 0px 50px 0px;
+        border: 2px solid #FFF;
+    }
+
+   /* .oxygen2 {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 9px;
+        color: white;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 20px 25px 20px;
+        margin: 50px 0px 50px 0px;
+        border: 2px solid #FFF;
+    }*/
+
+    .lato {
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .niconne {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .niconne2 {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .header-text {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-size: 10px;
+        padding-top: 5px;
+        display: block;
+    }
+
+    .text2 {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+        font-size: 9px;
+        padding-top: 5px;
+        display: block;
+    }
+
+    .text3 {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 25px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .buffer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 9px;
+    }
+
+    .niconne-border {
+        font-family: 'Niconne', cursive;
+        color: #f8bd08;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+        border-style: solid;
+        border-width: 2px;
+        border-left: 1px;
+        border-right: 1px;
+        padding: 15px 0px 15px;
+        /*padding-bottom: 40px 0px 40px;*/
+    }
+
+    /*.header-text {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-size: 8px;
+        padding-top: 5px;
+        display: block;
+    }*/
+}
+/******************************************************************************************/

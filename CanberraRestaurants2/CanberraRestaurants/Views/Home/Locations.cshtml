@@ -1,0 +1,329 @@
+﻿@*ROBERT PIETKIEWICZ U3144505*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="~/css/mystyle.css">
+<link rel="stylesheet" media="(min-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on tablet larger than 768px*@
+@*@<img src="E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\wwwroot\images\Restaurant" />*@
+<link href="~/css/mystyle.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Oxygen" rel="stylesheet" type="=text/css">
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD0K_Gss5-ZSBOPH1WbttElW182xpte4mY"></script> @*to include google map API*@
+
+
+<div class="parallax_scrolling3">
+    <div class="dark_background resizeblah">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="pad">
+                    <p class="oxygenotherpage">CANBERRA RESTAURANTS</p>
+                </div>
+                </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                @*<p class="lato">"People who love to eat are always the best people."</p>*@
+                <p class="niconne3">Restaurant Locations</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script> @**********************************************************************************************@
+    // Declare a variable for map
+    var map;
+    // Get lattitude and longitude of Canberra Centre
+    var canberraCentre = new google.maps.LatLng(-35.2792284, 149.1321033);
+
+    // Initialise the map
+    function initMap() {
+        // Define the properties for Canberra Centre map
+        var canberraMap = {
+            center: canberraCentre,
+            zoom: 12,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        // Create a map object for Canberra Centre
+        // using canberraMap and the <div> element with id="googleMap"
+        map = new google.maps.Map(
+            document.getElementById("googleMap"), canberraMap);
+
+        // Add markers below this line
+        @*addCanberraCentreMarker(map);*@
+        addCanberraMuseumGallery(map); @*marker noodle*@
+        addCanberraMuseumGallery2(map);@*marker italian*@
+        addCanberraMuseumGallery3(map);@*marker jamies*@
+        addCanberraMuseumGallery4(map);@*marker blu g*@
+        addCanberraMuseumGallery5(map);@*marker jewel*@
+        addCanberraMuseumGallery6(map); @*marker chairman*@
+
+
+
+    }
+    // Add other functions below this line
+   @* function addCanberraCentreMarker(map) {
+        // Canberra Centre
+        var canberraCentre = new google.maps.LatLng(-35.2792284, 149.1321033);
+        var markerCanberraCentre = new google.maps.Marker({
+            position: canberraCentre,
+        });
+
+        markerCanberraCentre.setMap(map);
+
+        var infoCanberraCentre = new google.maps.InfoWindow({
+            content: "Canberra Centre"
+        });
+
+        google.maps.event.addListener(markerCanberraCentre, 'click', function () {
+            infoCanberraCentre.open(map, markerCanberraCentre);
+        });
+    }*@
+
+    function addCanberraMuseumGallery(map) { @*marker noodle house*@
+        // Canberra Museum and Gallery
+        var canberraMuseumGallery =
+            new google.maps.LatLng(-35.250410, 149.136290);
+        var markerCanberraMuseumGallery = new google.maps.Marker({
+            position: canberraMuseumGallery,
+        });
+
+        markerCanberraMuseumGallery.setMap(map);
+
+        var contentCanberraMuseumGallery =
+            ' <h1>Dickson Noodle House</h1>' +
+            ' <img src="../images/dicksonnoodlehouse-logo.jpg" ' +
+            '      style="float:left; width:25%; margin-right:10px;">' +
+            ' <p>Dickson Asian Noodle House specialises in traditional ' +
+            'Malaysian, Thai and Lao Cuisine. The dining atmosphere is casual and. ' +
+            'cosy providing for a la carte dining, banquets ' +
+            'and take away." - Vibe FM Website ' +
+            '.<br>' +
+            '<a href="http://www.vibefm.com.au/dicksonasiannoodlehouse.htm"> ' +  @*realign in new row ?*@
+            'Click here</a> to visit the Dickson Noodle House Website' +
+            ' </p>';
+
+        var infoCanberraMuseumGallery = new google.maps.InfoWindow({
+            content: contentCanberraMuseumGallery
+        });
+
+        google.maps.event.addListener(markerCanberraMuseumGallery, 'click',
+            function () {
+                infoCanberraMuseumGallery.open(map, markerCanberraMuseumGallery);
+            });
+    }
+
+
+
+    function addCanberraMuseumGallery2(map) { @*marker italian sons*@
+        // Canberra Museum and Gallery
+        var canberraMuseumGallery2 =
+            new google.maps.LatLng(-35.275011, 149.132288);
+        var markerCanberraMuseumGallery2 = new google.maps.Marker({
+            position: canberraMuseumGallery2,
+        });
+
+        markerCanberraMuseumGallery2.setMap(map);
+
+        var contentCanberraMuseumGallery2 =
+            ' <h1>Italian and Sons</h1>' +
+            ' <img src="../images/italiansons-logo.jpg" ' +
+            '      style="float:left; width:25%; margin-right:10px;">' +
+            ' <p>A casual Italian trattoria that specialises in wood ' +
+            'fried pizzas such as Rucola with Prosciutto di Parma, rucola & reggiano. ' +
+            'Do not miss daily changing main dishes of the day such as their wood roast ' +
+            'suckling pig, rosemary, garlic baked fennel & mustard fruits" - Australian Good Food Guide. ' +
+            '<br>' +
+            '<br>' +
+            '<a href="https://italianandsons.com.au/"> ' +
+            'Click here</a> to visit the Italian and Sons Website' +
+            ' </p>';
+
+        var infoCanberraMuseumGallery2 = new google.maps.InfoWindow({
+            content: contentCanberraMuseumGallery2
+        });
+
+        google.maps.event.addListener(markerCanberraMuseumGallery2, 'click',
+            function () {
+                infoCanberraMuseumGallery2.open(map, markerCanberraMuseumGallery2);
+            });
+    }
+
+
+
+    function addCanberraMuseumGallery3(map) { @*marker jamies*@
+        // Canberra Museum and Gallery
+        var canberraMuseumGallery3 =
+            new google.maps.LatLng(-35.277750, 149.132790);
+        var markerCanberraMuseumGallery3 = new google.maps.Marker({
+            position: canberraMuseumGallery3,
+        });
+
+        markerCanberraMuseumGallery3.setMap(map);
+
+        var contentCanberraMuseumGallery3 =
+            ' <h1>Jamies Italian</h1>' +
+            ' <img src="../images/rest/jamies_thumb2.png" ' +
+            '      style="float:left; width:25%; margin-right:10px;">' +
+            ' <p>With prime position in the Canberra Centre on Bunda Street,  ' +
+            'Jamies Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. ' +
+            'With beautiful room-height windows and impressive lofty ceilings, the restaurant ' +
+            'is full of atmosphere." - Jamies Italian Website. ' +
+            '<br>' +
+            '<a href="https://www.jamieoliver.com/italian/australia/"> ' + @*realign in new row?*@
+            'Click here</a> to visit the Jamies Italian Website' +
+            ' </p>';
+
+        var infoCanberraMuseumGallery3 = new google.maps.InfoWindow({
+            content: contentCanberraMuseumGallery3
+        });
+
+        google.maps.event.addListener(markerCanberraMuseumGallery3, 'click',
+            function () {
+                infoCanberraMuseumGallery3.open(map, markerCanberraMuseumGallery3);
+            });
+    }
+
+
+
+    function addCanberraMuseumGallery4(map) { @*marker blu g*@
+        // Canberra Museum and Gallery
+        var canberraMuseumGallery4 =
+            new google.maps.LatLng(-35.277351, 149.132019);
+        var markerCanberraMuseumGallery4 = new google.maps.Marker({
+            position: canberraMuseumGallery4,
+        });
+
+        markerCanberraMuseumGallery4.setMap(map);
+
+        var contentCanberraMuseumGallery4 =
+            ' <h1>Blu Ginger</h1>' +
+            ' <img src="../images/bluginger-logo.jpg" ' +
+            '      style="float:left; width:25%; margin-right:10px;">' +
+            ' <p>At Blu Ginger we use only the freshest locally sourced produce,  ' +
+            'combined with authentic spices imported directly from the sub-continent, ' +
+            'to offer classic traditional recipes with a modern twist, creating a  ' +
+            'unique and memorable dining experience for you." - Blu Ginger Website ' +
+            '<br>' +
+            '<br>' +
+            '<a href="http://www.bluginger.com.au/"> ' +
+            'Click here</a> to visit the Blu Ginger Website' +
+            ' </p>';
+
+        var infoCanberraMuseumGallery4 = new google.maps.InfoWindow({
+            content: contentCanberraMuseumGallery4
+        });
+
+        google.maps.event.addListener(markerCanberraMuseumGallery4, 'click',
+            function () {
+                infoCanberraMuseumGallery4.open(map, markerCanberraMuseumGallery4);
+            });
+    }
+
+
+
+    function addCanberraMuseumGallery5(map) { @*marker jewel*@
+        // Canberra Museum and Gallery
+        var canberraMuseumGallery5 =
+            new google.maps.LatLng(-35.320721, 149.132730);
+        var markerCanberraMuseumGallery5 = new google.maps.Marker({
+            position: canberraMuseumGallery5,
+        });
+
+        markerCanberraMuseumGallery5.setMap(map);
+
+        var contentCanberraMuseumGallery5 =
+            ' <h1>Jewel of India</h1>' +
+            ' <img src="../images/jewelofindia-logoactual.jpg" ' +
+            '      style="float:left; width:25%; margin-right:10px;">' +
+            ' <p>Finding a balance between dishes inspired by authentic recipes ' +
+            'and creating a modern take on classic cuisine sees a loyal following of Canberra locals returning ' +
+            'for a mouth watering feast" - Australian Good Food Website  ' +
+            '<br>' +
+            '<br>' +
+            '<a href="https://jewelofindia.com.au/"> ' +
+            'Click here</a> to visit the Jewel of India Website' +
+            ' </p>';
+
+        var infoCanberraMuseumGallery5 = new google.maps.InfoWindow({
+            content: contentCanberraMuseumGallery5
+        });
+
+        google.maps.event.addListener(markerCanberraMuseumGallery5, 'click',
+            function () {
+                infoCanberraMuseumGallery5.open(map, markerCanberraMuseumGallery5);
+            });
+    }
+
+
+
+    function addCanberraMuseumGallery6(map) { @*marker chairman*@
+        // Canberra Museum and Gallery
+        var canberraMuseumGallery6 =
+            new google.maps.LatLng(-35.311646, 149.133942);
+        var markerCanberraMuseumGallery6 = new google.maps.Marker({
+            position: canberraMuseumGallery6,
+        });
+
+        markerCanberraMuseumGallery6.setMap(map);
+
+        var contentCanberraMuseumGallery6 =
+            ' <h1>The Chairman & Yip</h1>' +
+            ' <img src="../images/chairmanyip-logo.jpg" ' +
+            '      style="float:left; width:25%; margin-right:10px;">' +
+            ' <p>The Chairman & Yip has become one of Canberras longest standing and most highly ' +
+            'regarded institutions, having received numerous awards over the years, offering an ever ' +
+            'consistent and professional quality of service for corporate dining, conferences  ' +
+            'and presentations" - Chairman & Yip Website' +
+            '<br>' +
+            '<br>' +
+            '<a href="http://chairmangroup.com.au/chairmanyip/"> ' +
+            'Click here</a> to visit the Chairman & Yip Website' +
+            ' </p>';
+
+        var infoCanberraMuseumGallery6 = new google.maps.InfoWindow({
+            content: contentCanberraMuseumGallery6
+        });
+
+        google.maps.event.addListener(markerCanberraMuseumGallery6, 'click',
+            function () {
+                infoCanberraMuseumGallery6.open(map, markerCanberraMuseumGallery6);
+            });
+    }
+
+    
+    // Add a DOM listener that will execute the initMap function
+    // on window load (when the page is loaded)
+    google.maps.event.addDomListener(window, 'load', initMap);
+</script>
+
+@* The div element below is to display Google Map*@
+    <div id="googleMap" style="width:100%;height:800px;">
+</div> @*************************************************************************************************************@
+
+
+@* table/grid align template
+    <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-3" ></div>
+        <div class="col-md-3" ></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">1</div>
+        <div class="col-md-3">2</div>
+        <div class="col-md-3">3</div>
+        <div class="col-md-3">4</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">1</div>
+        <div class="col-md-3">2</div>
+        <div class="col-md-6">3</div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">1</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">1</div>
+    </div>
+*@

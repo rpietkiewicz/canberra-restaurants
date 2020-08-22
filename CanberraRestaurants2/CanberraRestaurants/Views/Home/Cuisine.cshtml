@@ -1,0 +1,283 @@
+﻿@*ROBERT PIETKIEWICZ U3144505*@
+@model IEnumerable<CanberraRestaurants.Models.Review>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="~/css/mystyle.css">
+<link rel="stylesheet" media="(min-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on tablet larger than 768px*@
+@*@<img src="E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\wwwroot\images\Restaurant" />*@
+<link href="~/css/mystyle.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Oxygen" rel="stylesheet" type="=text/css">
+
+
+<div class="parallax_scrolling3">
+    <div class="dark_background resizeblah">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="pad">
+                    <p class="oxygenotherpage">CANBERRA RESTAURANTS</p>
+                </div>
+                </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                @*<p class="lato">"People who love to eat are always the best people."</p>*@
+                <p class="niconne3">Cuisine</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<br />*@
+
+<div class="row text-banner-altpage" style="background-color:white;">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-1">
+            
+            <div style="color:black;">
+                <h3 class="header-text">tastes of the world</h3>
+                <br />
+                <div class="oxygen2">Whether you're after the tastes of the Meditterranean or some oriental delights, then Canberra has the restaurant for you</div>
+                <br />
+                <div class="oxygen2">Check out what's on offer by selecting a cuisine from the menu below</div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="col-md-6" style="padding-top:60px;">
+                <img src="~/images/burgertwo.jpg" />
+            </div>
+            <div class="col-md-6" style="padding-top:60px;">
+                <img src="~/images/pastatwo.jpg" />
+            </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+
+@*accordion here*@
+<div class="row"> @*for reviews side bars leave on col-lg-9*@
+    <div class="col-lg-9">
+
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Italian</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+
+                        <div class="col-md-3">
+                            <img src="~/images/rest/is_thumbnail.jpg" class="restimg2" alt="logo" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="resttext">
+                                <div class="header-text">Italian and Sons </div>
+                                <div>"A casual Italian trattoria that specialises in wood fried pizzas such as Rucola with Prosciutto di Parma, rucola & reggiano. Don't miss daily changing main dishes of the day such as their wood roast suckling pig, rosemary, garlic, baked baby fennel & mustard fruits" - Australian good Food Guide</div>
+                                <div class=""><a href="https://italianandsons.com.au/" ; style="color: gold;">Click here</a> for the Italian and Sons Website or <a href="http://localhost:53597/Home/Dishes" ; style="color: gold;">Click here</a> for more information on Italian Cuisine </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <img src="~/images/rest/jamies_thumbnail.png" class="restimg2" alt="logo" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="resttext">
+                                <div class="header-text">Jamie's Italian </div>
+                                <div>"With prime position in the Canberra Centre on Bunda Street, Jamie's Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. With beautiful room-height windows and impressive lofty ceilings, the restaurant is full of atmosphere." - Jamie's Italian Website</div>
+                                <div class=""><a href="https://www.jamieoliver.com/italian/australia/" ; style="color: gold;">Click here</a> for the Jamie's Italian Website or <a href="http://localhost:53597/Home/Dishes" ; style="color: gold;"> Click here</a> for more information on Italian Cuisine</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Asian</a>
+                    </h4>
+                </div>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div class="col-md-3">
+                        <img src="~/images/rest/chairman_yip_thumbnail.jpg" class="restimg2" alt="logo" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="resttext">
+                            <div class="header-text">Chairman & Yip </div>
+                            <div>"The Chairman & Yip has become one of Canberra's longest standing and most highly regarded institutions, having received numerous awards over the years, offering an ever consistent and professional quality of service for corporate dining, conferences and presentations" - Chairman & Yip Website</div>
+                            <div class=""><a href="http://chairmangroup.com.au/chairmanyip/" ; style="color: gold;">Click here</a> for the Chairman & Yip Website or <a href="http://localhost:53597/Home/Dishes" ; style="color: gold;"> Click here</a> for more information on Asian Cuisine</div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img src="~/images/rest/dickson_noodle_thumbnail.jpg" class="restimg2" alt="logo">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="resttext">
+                            <h3 class="header-text">Dickson Asian Noodle House</h3>
+                            <div>"The Dickson Asian Noodle House specialises in traditional Malaysian, Thai and Lao Cuisine. The dining atmosphere is casual and cosy providing for a la carte dining, banquets and take away." - Vibe FM Website</div>
+                            <div class=""><a href="http://www.vibefm.com.au/dicksonasiannoodlehouse.htm" ; style="color: gold;">Click here</a> for the Dickson Noodle House Facebook page or <a href="http://localhost:53597/Home/Dishes" ; style="color: gold;"> Click here</a> for more information on Asian Cuisine</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Indian</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="col-md-3">
+                            <img src="~/images/rest/bluginger_thumbnail.jpg" class="restimg2" alt="logo" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="resttext">
+                                <h3 class="header-text">Blu Ginger</h3>
+                                <div>"At Blu Ginger we use only the freshest locally sourced produce, combined with authentic spices imported directly from the sub-continent, to offer classic traditional recipes with a modern twist, creating a unique and memorable dining experience for you" - Blu Ginger Website</div>
+                                <div class=""><a href="http://www.bluginger.com.au/" ; style="color: gold;">Click here</a> for the Blu Ginger Website or <a href="http://localhost:53597/Home/Dishes" ; style="color: gold;"> Click here</a> for more information on Indian Cuisine</div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3">
+                            <img src="~/images/rest/jewel_thumbnail.jpg" class="restimg2" alt="logo" />
+                        </div>
+                        <div class="col-md-9">
+                            <div class="resttext">
+                                <h3 class="header-text">Jewel of India</h3>
+                                <div>"Finding a balance between dishes inspired by authentic recipes and creating a modern take on classic cuisine sees a loyal following of Canberra locals returning for a mouth-watering feast" - Australian Good Food Website</div>
+                                <div class=""><a href="https://jewelofindia.com.au/" ; style="color: gold;">Click here</a> for the Jewel of India Website or <a href="http://localhost:53597/Home/Dishes" ; style="color: gold;"> Click here</a> for more information on Indian Cuisine</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3">
+        @*for reviews page to view on sidebar*@
+
+        <h3 class="header-text4">reviews</h3>
+        <hr class="review-border" style="margin-bottom: 5px;" />
+        
+        @{
+            int index = 1;
+            @foreach (var item in Model)
+            {
+                <h2 class="res-bold">
+                    @Html.DisplayFor(modelItem => item.Heading)
+                </h2>
+
+              
+
+                <p>
+
+                    @{
+                        int numStars = 0;
+                        if (item.Rating == "5") { numStars = 5; }
+                        else if (item.Rating == "4") { numStars = 4; }
+                        else if (item.Rating == "3") { numStars = 3; }
+                        else if (item.Rating == "2") { numStars = 2; }
+                        else { numStars = 1; }
+                        for (int i = 0; i < numStars; i++)
+                        {
+                            <span style="color: royalblue; font-size: 30px; ">&#x2605; </span>
+                        }
+                        for (int i = 0; i < 5 - numStars; i++)
+                        {
+                            <span style="font-size: 30px; ">&#x2606;</span>
+                        }
+
+                    }
+                    <div class="row">
+                    </div>
+                </p>
+
+                <h4>
+                    @Html.DisplayFor(modelItem => item.Restaurant)
+                </h4>
+                <p>@Html.DisplayFor(modelItem => item.Comment)</p>
+                
+                <hr class="review-border" />
+
+                            }
+                            index++;           
+                <p>To read more reviews or to write your own review, head over to our <a href="http://localhost:53597/Reviews" ; style="color: darkorange;">Customer Reviews</a> page</p>
+        }
+
+
+
+
+    </div>
+</div>
+@**
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion“
+                       href="#collapse1">Topic 1</a>
+                </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    HTML and HTML5.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    *@
+@**********************@
+<div class="row">
+
+
+
+
+
+
+</div>
+
+
+       @*table/grid align template
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-3" ></div>
+                <div class="col-md-3" ></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">1</div>
+                <div class="col-md-3">2</div>
+                <div class="col-md-3">3</div>
+                <div class="col-md-3">4</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">1</div>
+                <div class="col-md-3">2</div>
+                <div class="col-md-6">3</div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">1</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">1</div>
+            </div>
+        *@

@@ -1,0 +1,307 @@
+﻿@*ROBERT PIETKIEWICZ U3144505*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="~/css/mystyle.css">
+<link rel="stylesheet" media="(min-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on tablet larger than 768px*@
+@*@<img src="E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\wwwroot\images\Restaurant" />*@
+<link href="~/css/mystyle.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Oxygen" rel="stylesheet" type="=text/css">
+
+
+<div class="parallax_scrolling3">
+    <div class="dark_background resizeblah">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="pad">
+                <p class="oxygenotherpage">CANBERRA RESTAURANTS</p>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                @*<p class="lato">"People who love to eat are always the best people."</p>*@
+                <p class="niconne3">Restaurants</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row text-banner-altpage" style="background-color:white;">
+    <div class="col-md-5">
+
+        <div style="color:black;">
+            <h3 class="header-text">The Restaurants</h3>
+            <br />
+            <div class="oxygen2">Whether you're after the tastes of the Mediterranean or some oriental delights, then Canberra has the restaurant for you.</div>
+            <br />
+            <div class="oxygen2">Check out what's on offer by checking out our restaurants below.</div>
+        </div>
+    </div>
+
+
+
+    <div class="col-md-5 col-md-offset-1">
+        <div style="color:black;">
+            <h3 class="header-text">Customer Reviews</h3>
+            <br />
+            <div class="oxygen2">If you want to find out more about the restaurants highlighted below, there's plenty of information to be found at our customer reviews page.</div>
+            <br />
+            <div class="oxygen2"><a href="http://localhost:53597/Reviews">Click here</a> to head over to the customer reviews page.</div>
+        </div>
+    </div>
+</div>
+
+
+<br />
+@*<br /> if required*@
+@*<br /> if required*@
+
+
+
+
+@*code for the six restaurants; borders and description*@
+
+@**************working bootstrap code******************@
+@*Italian*@
+<div class="box">
+  <div class="row">
+    
+       <div class="col-md-3">
+            <img src="~/images/rest/is_thumbnail.jpg" class="restimg" alt="logo" />
+       </div>
+      <div class="col-md-8">
+      <div class="resttext">
+            <div class="header-text">Italian and Sons </div>
+            <p class="oxygen2">"A casual Italian trattoria that specialises in wood fried pizzas such as Rucola with Prosciutto di Parma, rucola & reggiano. Don't miss daily changing main dishes of the day such as their wood roast suckling pig, rosemary, garlic, baked baby fennel & mustard fruits" - Australian good Food Guide</p>
+            <p class="oxygen2"><a href="https://italianandsons.com.au/" ; style="color: gold;">Click here</a> for the Italian and Sons Website.</p>
+      </div>
+    </div>
+   
+  </div>
+</div>
+
+@*jamies*@
+<div class="box">
+  <div class="row">
+   
+        
+      <div class="col-md-3">
+          <img src="~/images/rest/jamies_thumbnail.png" class="restimg" alt="logo" />
+      </div>
+      <div class="col-md-8">
+      <div class="resttext">
+              <div class="header-text">Jamie's Italian </div>
+              <p class="oxygen2">"With prime position in the Canberra Centre on Bunda Street, Jamie's Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. With beautiful room-height windows and impressive lofty ceilings, the restaurant is full of atmosphere." - Jamie's Italian Website</p>
+              <div class="oxygen2"><a href="https://www.jamieoliver.com/italian/australia/" ; style="color: gold;">Click here</a> for the Jamie's Italian Website.</div>
+      </div>
+          </div>
+
+      </div>
+</div>
+@*chairman*@
+<div class="box">
+  <div class="row">
+   
+      
+      <div class="col-md-3">
+          <img src="~/images/rest/chairman_yip_thumbnail.jpg" class="restimg" alt="logo" />
+      </div>
+      <div class="col-md-8">
+      <div class="resttext">
+              <div class="header-text">Chairman & Yip </div>
+              <p class="oxygen2">"The Chairman & Yip has become one of Canberra's longest standing and most highly regarded institutions, having received numerous awards over the years, offering an ever consistent and professional quality of service for corporate dining, conferences and presentations" - Chairman & Yip Website</p>
+              <div class="oxygen2"><a href="http://chairmangroup.com.au/chairmanyip/" ; style="color: gold;">Click here</a> for the Chairman & Yip Website.</div>
+      </div>
+   </div>
+ </div>
+</div> 
+@*noodle*@
+<div class="box">
+   <div class="row">
+   
+        
+       <div class="col-md-3">
+           <img src="~/images/rest/dickson_noodle_thumbnail.jpg" class="restimg" alt="logo">
+       </div>
+       <div class="col-md-8">
+           <div class="resttext">
+               <h3 class="header-text">Dickson Asian Noodle House</h3>
+               <p class="oxygen2">"The Dickson Asian Noodle House specialises in traditional Malaysian, Thai and Lao Cuisine. The dining atmosphere is casual and cosy providing for a la carte dining, banquets and take away." - Vibe FM Website</p>
+               <div class="oxygen2"><a href="http://www.vibefm.com.au/dicksonasiannoodlehouse.htm" ; style="color: gold;">Click here</a> for the Dickson Noodle House Facebook page.</div>
+           </div>
+          </div>
+
+   </div>
+</div>
+
+@*blu*@
+<div class="box">
+   <div class="row">
+   
+       <div class="col-md-3">
+           <img src="~/images/rest/bluginger_thumbnail.jpg" class="restimg" alt="logo" />
+       </div>
+       <div class="col-md-8">
+           <div class="resttext">
+               <h3 class="header-text">Blu Ginger</h3>
+               <p class="oxygen2">"At Blu Ginger we use only the freshest locally sourced produce, combined with authentic spices imported directly from the sub-continent, to offer classic traditional recipes with a modern twist, creating a unique and memorable dining experience for you" - Blu Ginger Website</p>
+               <div class="oxygen2"><a href="http://www.bluginger.com.au/" ; style="color: gold;">Click here</a> for the Blu Ginger Website.</div>
+           </div>
+          </div>
+   </div>
+</div>
+
+@*jewel*@
+<div class="box">
+   <div class="row">
+   
+       <div class="col-md-3">
+           <img src="~/images/rest/jewel_thumbnail.jpg" class="restimg" alt="logo" />
+       </div>
+       <div class="col-md-8">
+           <div class="resttext">
+               <h3 class="header-text">Jewel of India</h3>
+               <p class="oxygen2">"Finding a balance between dishes inspired by authentic recipes and creating a modern take on classic cuisine sees a loyal following of Canberra locals returning for a mouth-watering feast" - Australian Good Food Website</p>
+               <div class="oxygen2"><a href="https://jewelofindia.com.au/" ; style="color: gold;">Click here</a> for the Jewel of India Website.</div>
+           </div>
+          </div>
+    </div>
+ </div>
+        
+
+
+        @*
+            <div class="row">
+                <div class="res-box" style="border: 2px solid black">
+                    <div class="row">
+                        <div class="span4">
+                            <img src="~/images/italiansons-logo.jpg" />
+                        </div>
+                        <div class="span4">
+                            <h3 class="header-text">Italian and Sons</h3>
+                        </div>
+                        <div class="span4">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br />
+        *@
+        @*******************with html and external style sheeet res-border********************
+            <div class="row" style="background-color: white" ;">
+                <div class="col-md-5 col-md-offset-2">
+                    <div class="res-border">
+                        <article style="border: solid;">
+                        <img src="~/images/italiansons-logo.jpg" />
+                        <h3 class="header-text">Italian and Sons</h3>
+                        <div>"A casual Italian trattoria that specialises in wood fried pizzas such as Rucola with Prosciutto di Parma, rucola & reggiano. Don't miss daily changing main dishes of the day such as their wood roast suckling pig, rosemary, garlic, baked baby fennel & mustard fruits" - Australian good Food Guide</div>
+                        <div class="buffer"><a href="" ; style="color: gold;">Click here</a> for the Italian and Sons Website.</div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="background-color: white" ;">
+                <div class="col-md-5 col-md-offset-2">
+                    <div class="res-border">
+                        <img src="~/images/jamiesitalian-logo.jpg" />
+                        <h3 class="header-text">Jamie's Italian</h3>
+                        <div>"With prime position in the Canberra Centre on Bunda Street, Jamie's Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. With beautiful room-height windows and impressive lofty ceilings, the restaurant is full of atmosphere." - Jamie's Italian Website</div>
+                        <div class="buffer"><a href="" ; style="color: gold;">Click here</a> for the Jamie's Italian Canberra Website.</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="background-color: white" ;">
+                <div class="col-md-5 col-md-offset-2">
+                    <div class="res-border">
+                        <img src="~/images/chairmanyip-logo.jpg" />
+                        <h3 class="header-text">Chairman & Yip</h3>
+                        <div>"The Chairman & Yip has become one of Canberra's longest standing and most highly regarded institutions, having received numerous awards over the years, offering an ever consistent and professional quality of service for corporate dining, conferences and presentations" - Chairman & Yip Website</div>
+                        <div class="buffer"><a href="" ; style="color: gold;">Click here</a> for the Chairman & Yip Website.</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="background-color: white" ;">
+                <div class="col-md-5 col-md-offset-2">
+                    <div class="res-border">
+                        <img src="~/images/dicksonnoodlehouse-logo.jpg" />
+                        <h3 class="header-text">Dickson Asian Noodle House</h3>
+                        <div>"The Dickson Asian Noodle House specialises in traditional Malaysian, Thai and Lao Cuisine. The dining atmosphere is casual and cosy providing for a la carte dining, banquets and take away." - Vibe FM Website</div>
+                        <div class="buffer"><a href="" ; style="color: gold;">Click here</a> for the Dickson Noodle House Facebook page.</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="background-color: white" ;">
+                <div class="col-md-5 col-md-offset-2">
+                    <div class="res-border">
+                        <img src="~/images/bluginger-logo.jpg" />
+                        <h3 class="header-text">Blu Ginger</h3>
+                        <div>"At Blu Ginger we use only the freshest locally sourced produce, combined with authentic spices imported directly from the sub-continent, to offer classic traditional recipes with a modern twist, creating a unique and memorable dining experience for you" - Blu Ginger Website</div>
+                        <div class="buffer"><a href="" ; style="color: gold;">Click here</a> for the Blu Ginger Website.</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="background-color: white" ;">
+                <div class="col-md-5 col-md-offset-2">
+                    <div class="res-border">
+                        <img src="~/images/jewelofindia-logo.jpg" />
+                        <h3 class="header-text">Jewel of India</h3>
+                        <div>"Finding a balance between dishes inspired by authentic recipes and creating a modern take on classic cuisine sees a loyal following of Canberra locals returning for a mouth-watering feast" - Australian Good Food Website</div>
+                        <div class="buffer"><a href="" ; style="color: gold;">Click here</a> for the Jewel of India Website.</div>
+
+                    </div>
+                </div>
+            </div>
+        *@
+        @* alternative using article - but image doesn't float left
+            <article style="border: solid;">
+                <img style="margin:10px;" src="~/images/italiansons-logo.jpg" />
+                <h3 class="header-text">Italian and Sons</h3>
+                <div>"With prime position in Canberra Centre on Bunda Street, Jamie's Italian is the perfect place for a mid-shopping pit stop, or a buzzing evening out. With beautiful room-height windows and impressive lofty ceilings, the restaurant is full of atmosphere" - Jamie's Italian Website</div>
+                <div class="buffer"><a href="" ; style="color: gold;">Click here</a> for the Italian and Sons Website.</div>
+
+            </article>
+            <br />
+        *@
+
+
+
+
+
+        @*table/grid align template
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">1</div>
+                <div class="col-md-3">2</div>
+                <div class="col-md-3">3</div>
+                <div class="col-md-3">4</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">1</div>
+                <div class="col-md-3">2</div>
+                <div class="col-md-6">3</div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">1</div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">1</div>
+            </div>
+        *@

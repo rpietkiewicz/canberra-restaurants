@@ -1,0 +1,97 @@
+@*ROBERT PIETKIEWICZ U3144505*@
+@model CanberraRestaurants.Models.Review
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on phone smaller than 768px*@
+<link rel="stylesheet" media="(min-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on tablet larger than 768px*@
+@*<img src="E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\wwwroot\images\Restaurant" />*@
+<link href="~/css/mystyle.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Oxygen" rel="stylesheet" type="=text/css">
+
+
+<div class="parallax_scrolling3">
+    <div class="dark_background resizeblah">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="pad">
+                    <p class="oxygenotherpage">CANBERRA RESTAURANTS</p>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                @*<p class="lato">"People who love to eat are always the best people."</p>*@
+                <p class="niconne3">Delete</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*************************delete review starts here**********************************@
+
+@*<h2>Delete</h2>*@
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    @*<h4>Review</h4>*@
+    <hr />
+    <dl class="dl-horizontal">
+        <input type="hidden" asp-for="Id" />
+        <dt>
+            @Html.DisplayNameFor(model => model.Heading)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Heading)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Restaurant)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Restaurant)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Comment)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Comment)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Agree)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Agree)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Disagree)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Disagree)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color"> 
+            <input type="submit" value="Delete" class="deleteButton" /> | @* prev. clss name: form-actions no-color*@
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,160 @@
+@*ROBERT PIETKIEWICZ U3144505*@
+@model IEnumerable<CanberraRestaurants.Models.Review>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on phone smaller than 768px*@
+<link rel="stylesheet" media="(min-width: 768px)" type="text/css" href="~/css/mystyle.css"> @*for viewing on tablet larger than 768px*@
+@*<img src="E:\3rd yr sem1 uni coursework - MAIN\Web\VS projects\CanberraRestaurants\CanberraRestaurants\wwwroot\images\Restaurant" />*@
+<link href="~/css/mystyle.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Oxygen" rel="stylesheet" type="=text/css">
+
+
+<div class="parallax_scrolling3">
+    <div class="dark_background resizeblah">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="pad">
+                    <p class="oxygenotherpage">CANBERRA RESTAURANTS</p>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                @*<p class="lato">"People who love to eat are always the best people."</p>*@
+                <p class="niconne3">Customer Reviews</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row text-banner-altpage" style="background-color:white;">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-1">
+
+            <div style="color:black;">
+                <h3 class="header-text2">BE THE CRITIC</h3>
+                <br />
+                <div class="oxygen3">Have you been to a restaurant recently and loved it or loathed it? Then tell us all about it.</div>
+                <br />
+                <div class="oxygen3">Find your inner restaurant critic and create an account to review your recent dining experience</div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div>
+                    
+                </div>
+            </div>
+            <br />
+            @*<div class="buttonReview">Submit a Review</div>*@ @*to appear only when user or manager are logged in - not visible to non-registered user*@
+        </div>
+
+        <div class="col-md-5">
+            <div class="col-md-6" style="padding-top:60px;">
+                <img src="~/images/burgertwo.jpg" />
+            </div>
+            <div class="col-md-6" style="padding-top:60px;">
+                <img src="~/images/pastatwo.jpg" />
+            </div>
+        </div>
+        <div class="col-md-1">
+        </div>
+    </div>
+</div>
+<br />
+
+@***********************************************customer reviews start here*******************************************************************@
+@*<h2>Index</h2>******************************************************************************************************************************@ 
+@{
+    if (User.IsInRole("Manager") || User.IsInRole("User"))
+    {
+        <div class="row">
+            <div class="col-md-2">
+                <div class="buttonReview"><a asp-action="Create">Submit a Review</a> </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p class="oxygen3">Please <a href="http://localhost:53597/Account/Login" ; style="color: darkorange;">log in</a> or <a href="http://localhost:53597/Account/Register" ; style="color: darkorange;">create an account</a> to review a restaurant </p>
+    }
+
+}
+<br/>
+@*************************************^^^^^^code above for allowing user and manager to view button - but non-registered user cannot view button.... needs to register to view*@
+
+@*</table>*@ @*custom table*********************************************************************************************@
+ 
+@{
+    int index = 1;
+    @foreach (var item in Model)
+    {
+        <h2>
+            @Html.DisplayFor(modelItem => item.Heading) 
+        </h2>
+
+        <h4 class="res-bold">
+           @@ @Html.DisplayFor(modelItem => item.Restaurant)
+        </h4>
+
+        <p>
+                  
+                    @{
+                        int numStars = 0;
+                        if (item.Rating == "5") { numStars = 5; }
+                        else if (item.Rating == "4") { numStars = 4; }
+                        else if (item.Rating == "3") { numStars = 3; }
+                        else if (item.Rating == "2") { numStars = 2; }
+                        else { numStars = 1; }
+                        for (int i = 0; i < numStars; i++)
+                        {
+                            <span style="color: royalblue; font-size: 30px; ">&#x2605; </span>
+                        }
+                        for (int i = 0; i < 5 - numStars; i++)
+                        {
+                            <span style="font-size: 30px; ">&#x2606;</span>
+                        }
+
+                    }
+                   <div class="row">
+                   </div>
+                </p>
+        <p>@Html.DisplayFor(modelItem => item.Comment)</p>            
+        <p> Review by <b> @Html.DisplayFor(modelItem => item.Name)</b> on <b>@Html.DisplayFor(modelItem => item.Date)</b></p>
+        <div class="row">
+            <div class="col-lg-10">
+                <nav>
+                    <a class="btn btn-default" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a class="buttonAgree" asp-action="Agree" asp-route-id="@item.Id">Agree(@item.Agree)</a>
+                    <a  class="buttonDisagree" asp-action="Disagree" asp-route-id="@item.Id">Disagree(@item.Disagree)</a>
+                </nav>
+            </div>
+             
+            <div class="col-lg-2">
+                @{
+                    if (User.IsInRole("Manager"))
+                    {
+
+                       <a class="buttonDiscard" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                       <a class="buttonEdit" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    }
+                }
+            </div>
+        </div> 
+
+        <hr class="review-border" />
+    }
+    index++;
+}
+
+
+
+
+
+
+
+
+
+
